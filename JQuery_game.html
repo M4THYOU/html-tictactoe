@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Description Here">
+	<meta name="keywords" content="SEO Tags Here">
+	<title>Tic-Tac-Toe</title>
+	<link rel="SHORTCUT ICON" href="" class="icon"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+<!-- *Scripts* -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+</head>
+<body>
+<!-- *Header* -->
+	<header>
+		<p>Tic-Tac-Toe</p>
+	</header>
+<!-- *First Section* -->
+		<p class="x-win">X wins!</p>
+		<p class="o-win">O wins!</p>
+		<section id="board" class="remove">
+
+			<table>
+				<tr id="top-row">
+					<td id="top-left" class="box"><div id="tl"></div></td>
+					<td id="top-middle" class="box"><div id="tm"></div></td>
+					<td id="top-right" class="box"><div id="tr"></div></td>
+				</tr>
+				<tr id="middle-row">
+					<td id="middle-left" class="box"><div id="ml"></div></td>
+					<td id="middle-middle" class="box"><div id="mm"></div></td>
+					<td id="middle-right" class="box"><div id="mr"></div></td>
+				</tr>
+				<tr id="bottom-row">
+					<td id="bottom-left" class="box"><div id="bl"></div></td>
+					<td id="bottom-middle" class="box"><div id="bm"></div></td>
+					<td id="bottom-right" class="box"><div id="br"></div></td>
+				</tr>
+			</table>
+		</section>
+		<div class="remove">
+			<h3 id="playerTurn"></h3>
+			<p id="error"></p>
+		</div>
+	<script type="text/javascript" src="JQuery_game.js"></script>
+</body>
+</html>
